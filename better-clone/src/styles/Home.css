@@ -1,0 +1,27 @@
+.home {
+    height: 100vh;
+    background-color: #f6fcfe;
+}
+
+.home__covid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(263, 47%, 18%, 1);
+    color: white;
+    height: 45px;
+    font-size: 18px;
+}
+
+.home__main {
+    display: flex;
+    width: 100%;
+}
+
+.home__mainLeft {
+    flex: .5;
+}
+
+.home__mainRight {
+    flex: .5;
+}
