@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@material-ui/core";
 import "../styles/Home.css";
 
 function Home() {
@@ -13,12 +14,20 @@ function Home() {
         <div className="home__mainLeft">
           <h3>Better Mortgage</h3>
           <span>No lender fees.</span>
-          <h1>No commission.</h1>
-          <h1>No, really.</h1>
-          <p>We've streamlined the mortgage process to eliminate fees, unnecessary steps, and time-wasting appointments. Our efficiency not only makes it easier to buy a home. It translates into the best rates available.</p>
+          <span>No commission.</span>
+          <span>No, really.</span>
+          <p>
+            We've streamlined the mortgage process to eliminate fees,
+            unnecessary steps, and time-wasting appointments. Our efficiency not
+            only makes it easier to buy a home. It translates into the best
+            rates available.
+          </p>
+          <Button>See today's rates</Button>
         </div>
         <div className="home__mainRight">
-          <h1>Pre approval</h1>
+          <div className="home__phone">
+            <h1>Pre approval</h1>
+          </div>
         </div>
       </div>
       {/* home */}

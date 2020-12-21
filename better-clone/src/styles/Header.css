@@ -1,4 +1,6 @@
 .header {
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -7,7 +9,7 @@
 }
 
 .header__leftSection {
-    margin: 20px;
+  margin: 20px;
 }
 
 .header__logo {
@@ -16,33 +18,34 @@
 }
 
 .header__middleSection {
-    display: flex;
+  display: flex;
 }
 
 .header__combineOptions {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__combineOptions > .MuiButton-root {
-    margin: 14px;
-    font-weight: bold;
+  margin: 14px;
+  font-weight: bold;
+  text-transform: none;
 }
 
 .header__rightSection {
-    margin: 20px;
+  margin: 20px;
 }
 
 .header__rightSection > .MuiButton-root {
-    border: 1px solid;
-    border-radius: 999rem;
-    width: 165px;
-    text-transform: none;
-    background-color: hsla(166, 82%, 45%, 1);
-    /* background-color: #00c397; */
-    color: white;
+  border: 1px solid;
+  border-radius: 999rem;
+  width: 165px;
+  text-transform: none;
+  background-color: hsla(166, 82%, 45%, 1);
+  /* background-color: #00c397; */
+  color: white;
 }
 
 .header__rightSection > .MuiButton-root:hover {
-    background-color: #00c397;
+  background-color: #00c397;
 }
