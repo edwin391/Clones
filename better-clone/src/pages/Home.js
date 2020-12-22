@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 import "../styles/Home.css";
+import HomeAnimation from "../components/HomeAnimation";
 
 function Home() {
   return (
@@ -26,7 +27,7 @@ function Home() {
         </div>
         <div className="home__mainRight">
           <div className="home__phone">
-            <h1>Pre approval</h1>
+            <HomeAnimation />
           </div>
         </div>
       </div>

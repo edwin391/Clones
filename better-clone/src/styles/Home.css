@@ -68,10 +68,19 @@
 .home__mainRight {
   flex: 0.5;
   /* width: 100px; */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 
 .home__phone {
-    position: absolute;
-    width: 300px;
-    right: 20px;
+  /* position: absolute; */
+  width: 300px;
+  /* right: 20px; */
+  /* height: 500px; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -1,0 +1,9 @@
+.homeAnimation {
+  background-color: #291843;
+  margin-top: 20px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no;
+  background-size: 200px;
+}
