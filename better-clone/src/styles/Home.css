@@ -1,5 +1,5 @@
 .home {
-  height: 100vh;
+  height: 200vh;
   background-color: #f6fcfe;
 }
 
@@ -21,39 +21,57 @@
 .home__mainLeft {
   display: flex;
   flex-direction: column;
-  flex: 0.5;
+  flex: 0.7;
   margin-top: 14%;
   margin-left: 4%;
+  /* height: 100vh; */
 }
 
-.home__mainLeft > h3 {
+.home__firstLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* height: 100%; */
+  margin-bottom: 100%;
+  /* height: 100vh; */
+}
+
+.home__firstLeft > h3 {
   margin-bottom: 30px;
   font-weight: bolder;
   font-size: larger;
   color: #291843;
 }
 
-.home__mainLeft > span {
+.home__firstLeft > span {
   color: #291843;
   font-size: 51px;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: 0.01rem;
+  letter-spacing: -1px;
 }
 
-.home__mainLeft > h1 {
+.home__secondLeft > span {
+  color: #291843;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.home__firstLeft > h1 {
   font-weight: bolder;
   font-size: 50px;
   color: hsla(263, 47%, 18%, 1);
 }
 
-.home__mainLeft > p {
+.home__firstLeft > p {
   margin-top: 40px;
   line-height: 30px;
   color: #291843;
 }
 
-.home__mainLeft > .MuiButton-root {
+.home__firstLeft > .MuiButton-root {
   border: 1px solid;
   width: 200px;
   margin-top: 45px;
@@ -65,13 +83,24 @@
   font-weight: bolder;
 }
 
+.home__firstParagraph {
+  width: 540px;
+}
+
+.home__secondParagraph {
+    margin-top: 25px;
+    width: 540px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
 .home__mainRight {
-  flex: 0.5;
+  flex: 0.3;
   /* width: 100px; */
-  /* background-attachment: fixed;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .home__phone {
